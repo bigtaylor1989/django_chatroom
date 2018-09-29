@@ -193,7 +193,8 @@ $(function(){
         }
     });
     
-    
+
+
     window.setTimeout(chatGetMessages, 0);
     window.setTimeout(usersListGet, 0);
     window.setTimeout(notifyConnection, 0);

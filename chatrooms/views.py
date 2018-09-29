@@ -8,7 +8,6 @@ from .utils.auth import get_login_url
 from .forms.guest import GuestNameForm
 from .models import Room
 
-
 class RoomsListView(ListView):
     """View to show the list of rooms available """
     context_object_name = "rooms"

@@ -8,7 +8,6 @@ from .decorators import (signals_new_message_at_end,
                         waits_for_new_message_at_start)
 from ..models import Room, Message
 
-
 class MessageHandler(object):
     """
     Class which implements two methods:

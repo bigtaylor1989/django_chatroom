@@ -5,7 +5,6 @@ from django.contrib.auth.models import User
 
 from polymorphic import PolymorphicModel
 
-
 class Room(PolymorphicModel):
     name = models.CharField(max_length=64, unique=True)
     slug = models.SlugField()

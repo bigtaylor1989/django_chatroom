@@ -1,6 +1,5 @@
 from django.core.exceptions import ObjectDoesNotExist
 
-
 def check_user_is_subscribed(request, user):
     """
     Example of function settable as settings.CHATROOMS_TEST_USER_FUNCTION

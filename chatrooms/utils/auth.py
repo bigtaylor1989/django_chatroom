@@ -8,7 +8,6 @@ from django.http import QueryDict
 
 from django_load.core import load_object
 
-
 def get_login_url(next, login_url=None,
                       redirect_field_name=REDIRECT_FIELD_NAME):
     """Returns the full login_url with next parameter set """

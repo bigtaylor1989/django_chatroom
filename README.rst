@@ -14,6 +14,7 @@ customizable.
 Installation
 ************
 
+
 Install the egg from pypi::
 
     $ pip install django-chatrooms

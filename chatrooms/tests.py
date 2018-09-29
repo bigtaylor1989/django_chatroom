@@ -9,7 +9,6 @@ from chatrooms.ajax.chat import ChatView
 from chatrooms.models import Room
 from chatrooms.utils.auth import get_login_url
 
-
 class ChatroomsTest(TestCase):
     def setUp(self):
         # creates a user

@@ -31,3 +31,4 @@ setup(name='django-chatrooms',
       # -*- Entry points: -*-
       """,
       )
+

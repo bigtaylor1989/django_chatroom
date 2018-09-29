@@ -6,7 +6,6 @@ try:
 except:
     from django.conf.urls import url, patterns
 
-
 from . import views
 from .utils.decorators import room_check_access
 from .ajax import chat

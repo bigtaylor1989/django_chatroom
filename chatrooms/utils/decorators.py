@@ -90,6 +90,7 @@ def room_check_access(view_func):
     return _wrapped_view
 
 
+
 def signals_new_message_at_end(func):
     """Decorator for MessageHandler.handle_received_message method
     """

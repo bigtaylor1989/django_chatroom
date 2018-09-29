@@ -8,7 +8,6 @@ from django.db.models import Max
 from .handlers import MessageHandler
 from ..models import Room, Message
 
-
 class CeleryMessageHandler(MessageHandler):
     """Custom MessageHandler class using celery
     for synchronization

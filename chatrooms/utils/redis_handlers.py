@@ -6,7 +6,6 @@ from django.db.models import Max
 from .handlers import MessageHandler
 from ..models import Room, Message
 
-
 class RedisMessageHandler(MessageHandler):
     """Custom MessageHandler class using redis
     for synchronization

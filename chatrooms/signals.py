@@ -10,6 +10,7 @@ chat_message_received = Signal(
         "date",
 ])
 
+
 handler = MessageHandlerFactory()
 
 chat_message_received.connect(handler.handle_received_message)
